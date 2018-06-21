@@ -1,7 +1,10 @@
 # webpackTest1.0  
 打包后的bundle.js与index.js的区别：  
-  console.log(0)  
-变成  
+```
+  console.log(0)
+```
+变成
+```
 !function(e){
     var t={};
     function n(r){
@@ -44,3 +47,4 @@
     n.p="",
     n(n.s=0)
 }([function(e,t){console.log(0)}]);
+```
